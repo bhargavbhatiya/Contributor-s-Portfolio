@@ -15,7 +15,7 @@ const AvatarListArray = [
   {
     id: 3,
     imageName: "binod",
-    name: "bhargav Bhatiya",
+    name: "Bhargav Bhatiya",
     work: "web developer",
   },
   {
@@ -23,6 +23,12 @@ const AvatarListArray = [
     imageName: "name",
     name: "name",
     work: "web developer",
+  },
+  {
+    id: 5,
+    imageName: "baby girl",
+    name: "Sweta Kyada",
+    work: "Flutter Developer",
   },
 ];
 export default AvatarListArray;
