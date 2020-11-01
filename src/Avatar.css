@@ -6,14 +6,38 @@
 }
 
 .mainpage {
-  width: 90%;
+  width: 100%;
   height: 100vh;
   margin: auto;
   font-family: "Gugi", cursive;
+  overflow: auto;
 }
-
+.eachAvatar {
+  /* display: inline-flex; */
+  justify-content: center;
+  align-items: center;
+  display: block;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.bgImg {
+  width: 100vw;
+  height: 100vh;
+  background: url("https://source.unsplash.com/random?colorful");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  position: absolute;
+  z-index: -1;
+  /* background-attachment: fixed; */
+}
 .mainpage h1 {
   margin: 0;
   padding: 20px 0;
   text-align: center;
+}
+
+.heading {
+  font-size: 45px;
+  font-weight: bolder;
 }

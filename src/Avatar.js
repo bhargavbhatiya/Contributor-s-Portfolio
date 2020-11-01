@@ -19,8 +19,9 @@ const Avatar = () => {
 
   return (
     <div className="mainpage">
-      <h1>Make your portfolio card with learning git</h1>
-      {EachAvatar}
+      <div className="bgImg"></div>
+      <h1 className="heading">Make your portfolio card with learning git</h1>
+      <div className="eachAvatar right-align">{EachAvatar}</div>
     </div>
   );
 };

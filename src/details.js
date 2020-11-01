@@ -9,8 +9,26 @@ const AvatarListArray = [
   {
     id: 2,
     imageName: "bhai",
-    name: "bhatiya",
+    name: "Bhatiya Bhargav",
     work: "web developer",
+  },
+  {
+    id: 5,
+    imageName: "baby girl",
+    name: "Sweta Kyada",
+    work: "Flutter Developer",
+  },
+  {
+    id: 2,
+    imageName: "bhai",
+    name: "Bhatiya Bhargav",
+    work: "web developer",
+  },
+  {
+    id: 5,
+    imageName: "baby girl",
+    name: "Sweta Kyada",
+    work: "Flutter Developer",
   },
   {
     id: 3,
@@ -23,12 +41,6 @@ const AvatarListArray = [
     imageName: "name",
     name: "name",
     work: "web developer",
-  },
-  {
-    id: 5,
-    imageName: "baby girl",
-    name: "Sweta Kyada",
-    work: "Flutter Developer",
   },
 ];
 export default AvatarListArray;
